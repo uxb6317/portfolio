@@ -2,10 +2,10 @@ import React from 'react';
 
 import './project.style.scss';
 
-const Project = ({ name, image, description }) => {
+const Project = ({ name, image, description, url }) => {
   return (
     <div className='project'>
-      <div className='image-name'>
+      <div onClick={() => window.open(url, '_blank')} className='image-name'>
         <div className='image'>
           <img src={image} alt='project' />
         </div>
