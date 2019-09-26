@@ -1,0 +1,39 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.red {
+  color: #e45c4c;
+}
+
+.yellow {
+  color: #fece2f;
+}
+
+.header {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  padding: 0 4rem 0.25rem 0.5rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  position: relative;
+  border-bottom: 0.5px solid rgba(100, 100, 100, 0.5);
+
+  @media only screen and (min-width: 900px) {
+    & {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+.sub-header {
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}

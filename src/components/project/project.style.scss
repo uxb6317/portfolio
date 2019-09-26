@@ -1,0 +1,66 @@
+.project {
+  display: flex;
+  margin: 1rem 0;
+
+  &:first-of-type {
+    margin-left: 0;
+  }
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+  .image-name {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    border: 0.5px solid rgba(100, 100, 100, 0.3);
+
+    .image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 98%;
+        height: auto;
+      }
+    }
+
+    .name {
+      margin-top: 0.25rem;
+      padding: 0.25rem;
+      letter-spacing: 1px;
+      font-size: 1.05rem;
+    }
+  }
+
+  .description {
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    margin-top: 0.1rem;
+  }
+
+  @media only screen and (min-width: 900px) {
+    & {
+      flex-direction: column;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+
+      .image-name {
+        margin-bottom: 1rem;
+      }
+
+      .description {
+        width: 95%;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 1240px) {
+    & {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+}

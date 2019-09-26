@@ -1,0 +1,91 @@
+@import '../../global-variables.scss';
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 0 0 3%;
+  max-width: 1024px;
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+
+    .hi {
+      font-size: 3rem;
+      font-weight: lighter;
+      letter-spacing: 2px;
+      margin-bottom: 1rem;
+    }
+
+    .intro-text {
+      line-height: 1.3em;
+      letter-spacing: 1px;
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      margin-left: 0.1rem;
+    }
+
+    .buttons {
+      display: flex;
+
+      .button {
+        padding: 0.5rem 1rem;
+        letter-spacing: 0.5px;
+        // background-color: #e45c4c;
+        background-color: $red;
+        color: white;
+        border: 1px solid transparent;
+        border-bottom: 2px solid darken(#e45c4c, 20%);
+        transition: all 0.2s ease-out;
+
+        &:hover {
+          background-color: white;
+          color: #e45c4c;
+          border: 1px solid #e45c4c;
+          font-weight: bold;
+          border-bottom: 2px solid darken(#e45c4c, 20%);
+        }
+
+        &:first-of-type {
+          margin-right: 1rem;
+        }
+      }
+    }
+
+    @media only screen and (min-width: 720px) {
+      & {
+        margin-bottom: 5rem;
+
+        .hi {
+          font-size: 4rem;
+        }
+      }
+    }
+
+    @media only screen and (min-width: 900px) {
+      & {
+        margin-bottom: 10rem;
+      }
+    }
+
+    @media only screen and (min-width: 1024px) {
+      & {
+        margin-bottom: 15rem;
+      }
+    }
+  }
+
+  .hero-img {
+    @media only screen and (min-width: 720px) {
+      & {
+        width: 70%;
+      }
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
