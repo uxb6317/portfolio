@@ -6,9 +6,9 @@ import PROJECTS_DATA from './projects-list.data';
 
 import './projects-list.style.scss';
 
-const ProjectsList = () => {
+const ProjectsList = React.forwardRef((props, ref) => {
   return (
-    <div name='projects' className='projects-list'>
+    <div ref={ref} name='projects' className='projects-list'>
       <div className='header red'>Projects</div>
       <div className='projects-container'>
         {PROJECTS_DATA.map(project => (
@@ -17,6 +17,6 @@ const ProjectsList = () => {
       </div>
     </div>
   );
-};
+});
 
 export default ProjectsList;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { createRef } from 'react';
 
 import Nav from './components/nav/nav.component';
 import Hero from './components/hero/hero.component';
@@ -9,12 +9,32 @@ import Footer from './components/footer/footer.component';
 import './App.scss';
 
 function App() {
+  const homeRef = createRef();
+  const aboutRef = createRef();
+  const projectsRef = createRef();
+
+  const scrollToContent = content => {
+    switch (content) {
+      case 'Home':
+        homeRef.current.scrollIntoView({ behavior: 'smooth' });
+        break;
+      case 'About':
+        aboutRef.current.scrollIntoView({ behavior: 'smooth' });
+        break;
+      case 'Projects':
+        projectsRef.current.scrollIntoView({ behavior: 'smooth' });
+        break;
+      default:
+        break;
+    }
+  };
+
   return (
-    <div className='App'>
-      <Nav />
-      <Hero />
-      <ProjectsList />
-      <About />
+    <div ref={homeRef} className='App'>
+      <Nav scrollToContent={scrollToContent} />
+      <Hero scrollToContent={scrollToContent} />
+      <ProjectsList ref={projectsRef} />
+      <About ref={aboutRef} />
       <Footer />
     </div>
   );

@@ -2,19 +2,28 @@ import React from 'react';
 
 import './nav.style.scss';
 
-const Nav = () => {
+const Nav = ({ scrollToContent }) => {
   return (
     <div className='nav'>
       <div className='menu-items'>
         <ul className='items'>
-          <li className='item'>
-            <a href=''>Home</a>
+          <li
+            onClick={e => scrollToContent(e.target.textContent)}
+            className='item'
+          >
+            Home
           </li>
-          <li className='item'>
-            <a href='#projects'>Projects</a>
+          <li
+            onClick={e => scrollToContent(e.target.textContent)}
+            className='item'
+          >
+            Projects
           </li>
-          <li className='item'>
-            <a href=''>About</a>
+          <li
+            onClick={e => scrollToContent(e.target.textContent)}
+            className='item'
+          >
+            About
           </li>
         </ul>
         <div className='social-media'>

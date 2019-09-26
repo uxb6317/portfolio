@@ -38,6 +38,7 @@
         border: 1px solid transparent;
         border-bottom: 2px solid darken(#e45c4c, 20%);
         transition: all 0.2s ease-out;
+        cursor: pointer;
 
         &:hover {
           background-color: white;

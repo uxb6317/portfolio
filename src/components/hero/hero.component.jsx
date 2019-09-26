@@ -2,7 +2,7 @@ import React from 'react';
 
 import './hero.style.scss';
 
-const Hero = () => {
+const Hero = ({ scrollToContent }) => {
   return (
     <div className='hero'>
       <div className='hero-text'>
@@ -12,12 +12,18 @@ const Hero = () => {
           specializing in React & Node.
         </span>
         <div className='buttons'>
-          <a href='' className='button'>
+          <span
+            onClick={e => scrollToContent(e.target.textContent)}
+            className='button'
+          >
             Projects
-          </a>
-          <a href='' className='button'>
+          </span>
+          <span
+            onClick={e => scrollToContent(e.target.textContent)}
+            className='button'
+          >
             About
-          </a>
+          </span>
         </div>
       </div>
       <div className='hero-img'>

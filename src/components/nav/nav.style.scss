@@ -20,17 +20,11 @@
       .item {
         display: inline-block;
         margin: 0 0.5rem;
+        padding: 0.2rem 0.05rem;
+        cursor: pointer;
 
         &:first-of-type {
           margin-left: 0;
-        }
-
-        a {
-          padding: 0.2rem 0.05rem;
-
-          &.active {
-            border-bottom: 2px solid #e45c4c;
-          }
         }
       }
     }

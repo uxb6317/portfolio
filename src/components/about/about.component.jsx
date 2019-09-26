@@ -2,9 +2,9 @@ import React from 'react';
 
 import './about.style.scss';
 
-const About = () => {
+const About = React.forwardRef((props, ref) => {
   return (
-    <div className='about'>
+    <div ref={ref} className='about'>
       <div className='header red'>About</div>
       <div className='container'>
         <div className='description'>
@@ -43,6 +43,6 @@ const About = () => {
       </div>
     </div>
   );
-};
+});
 
 export default About;
