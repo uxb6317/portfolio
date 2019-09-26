@@ -8,7 +8,7 @@ import './projects-list.style.scss';
 
 const ProjectsList = () => {
   return (
-    <div className='projects-list'>
+    <div name='projects' className='projects-list'>
       <div className='header red'>Projects</div>
       <div className='projects-container'>
         {PROJECTS_DATA.map(project => (
