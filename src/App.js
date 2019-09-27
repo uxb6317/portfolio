@@ -1,4 +1,4 @@
-import React, { createRef } from 'react';
+import React, { useRef } from 'react';
 
 import Nav from './components/nav/nav.component';
 import Hero from './components/hero/hero.component';
@@ -9,9 +9,9 @@ import Footer from './components/footer/footer.component';
 import './App.scss';
 
 function App() {
-  const homeRef = createRef();
-  const aboutRef = createRef();
-  const projectsRef = createRef();
+  const homeRef = useRef();
+  const aboutRef = useRef();
+  const projectsRef = useRef();
 
   const scrollToContent = content => {
     switch (content) {

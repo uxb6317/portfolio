@@ -8,10 +8,12 @@ const About = React.forwardRef((props, ref) => {
       <div className='header red'>About</div>
       <div className='container'>
         <div className='description'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-          pariatur reprehenderit perspiciatis praesentium consequuntur sed
-          dolorem error nisi, aliquid natus officiis veniam iure voluptas ipsam
-          ducimus explicabo esse ut vitae.
+          My name is Ulzii and I'm a Fullstack Software Developer with a passion
+          for creating clean, intuitive, and dynamic user experiences. I have
+          been developing websites and mobile applications for the past 6 years
+          and received my Bachelor's degree in Web & Mobile Computing from
+          Rochester Insitute of Technology. My main go-to tools are JavaScript,
+          React, and Node, but I sometimes develop in Python.
         </div>
         <div className='experiences'>
           <span className='sub-header red'>Industry Experience</span>
