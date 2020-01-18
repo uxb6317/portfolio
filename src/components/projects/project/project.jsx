@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './project.style.scss';
+import './project.scss';
 
 const Project = ({ name, image, description, url }) => {
   return (

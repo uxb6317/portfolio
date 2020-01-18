@@ -1,0 +1,23 @@
+@import '../../../styles/global-variables.scss';
+
+.item {
+  display: inline-block;
+  margin: 0 0.5rem;
+  padding: 0.2rem 0.05rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+  &:hover {
+    color: $red;
+  }
+
+  @media only screen and (min-width: 900px) {
+    & {
+      margin: 0 1rem;
+    }
+  }
+
+  &:first-of-type {
+    margin-left: 0;
+  }
+}

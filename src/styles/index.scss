@@ -26,8 +26,9 @@ a {
   margin-bottom: 1rem;
   display: inline-block;
   position: relative;
-  border-bottom: 0.75px solid rgba(100, 100, 100, 0.7);
+  border-bottom: 1px solid $yellow;
   font-weight: bold;
+  color: $red;
 
   @media only screen and (min-width: 900px) {
     & {

@@ -1,0 +1,15 @@
+.toolbox {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  .tools {
+    display: flex;
+    flex-wrap: wrap;
+
+    .tool {
+      width: 33%;
+      margin-bottom: 0.5rem;
+    }
+  }
+}

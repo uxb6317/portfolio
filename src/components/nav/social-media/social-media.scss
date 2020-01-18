@@ -1,0 +1,20 @@
+@import '../../../styles/global-variables.scss';
+
+.media {
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.15s ease-out;
+
+  &:hover {
+    color: darken($red, 10%);
+  }
+
+  &:first-of-type {
+    margin-left: 0;
+  }
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}

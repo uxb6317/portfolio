@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className='contact'>
-        <span>Copyright &copy; 2019 Ulziiorshikh Batdorj</span>
+        <span>Copyright &copy; 2020 Ulziiorshikh Batdorj</span>
         <span className='email'>uxb6317@rit.edu</span>
       </div>
     </div>
