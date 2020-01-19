@@ -3,10 +3,11 @@ import { Element } from 'react-scroll';
 
 import './projects.scss';
 
-import CustomCarousel from '../carousel';
-
 import PROJECTS_DATA from './PROJECTS_DATA';
+
 import Project from './project/project';
+import CarouselItem from '../custom-carousel/carousel-item';
+import CustomCarousel from '../custom-carousel';
 
 const Projects = () => {
   return (
@@ -14,8 +15,10 @@ const Projects = () => {
       <div className='header red'>Projects</div>
       <div className='projects-container'>
         <CustomCarousel items={PROJECTS_DATA}>
-          {PROJECTS_DATA.map(project => (
-            <Project key={project.name} {...project} />
+          {PROJECTS_DATA.map((project, index) => (
+            <CarouselItem currentItemIndex={index}>
+              <Project key={project.name} {...project} />
+            </CarouselItem>
           ))}
         </CustomCarousel>
       </div>

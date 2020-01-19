@@ -4,56 +4,56 @@ const PROJECTS_DATA = [
     image: './images/ecommerce.png',
     url: 'https://crwnazon.herokuapp.com/',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
+      '1Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
   },
   {
     name: 'Crownazon1',
     image: './images/ecommerce.png',
     url: 'https://crwnazon.herokuapp.com/',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
+      '2Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
   },
   {
     name: 'Crownazon2',
     image: './images/ecommerce.png',
     url: 'https://crwnazon.herokuapp.com/',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
+      '3Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
   },
   {
     name: 'Crownazon3',
     image: './images/ecommerce.png',
     url: 'https://crwnazon.herokuapp.com/',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
+      '4Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
   },
   {
     name: 'Crownazon4',
     image: './images/ecommerce.png',
     url: 'https://crwnazon.herokuapp.com/',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
+      '5Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
   },
   {
     name: 'Crownazon5',
     image: './images/ecommerce.png',
     url: 'https://crwnazon.herokuapp.com/',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
+      '6Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
   },
   {
     name: 'Crownazon6',
     image: './images/ecommerce.png',
     url: 'https://crwnazon.herokuapp.com/',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
+      '7Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
   },
   {
     name: 'Crownazon7',
     image: './images/ecommerce.png',
     url: 'https://crwnazon.herokuapp.com/',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
+      '8Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
   }
 ];
 

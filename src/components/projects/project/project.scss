@@ -2,22 +2,10 @@
 
 .project {
   display: flex;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
   position: relative;
-  cursor: pointer;
   bottom: 0;
-  padding: 0.5rem 0.5rem 1rem 0.5rem;
-  border-radius: 5px;
-  border-bottom: 1.5px solid $red;
-
-  &:hover {
-    bottom: 0.3rem;
-  }
-
-  &:active {
-    bottom: 0rem;
-  }
+  user-select: none;
 
   &:first-of-type {
     margin-left: 0;
@@ -27,43 +15,21 @@
     margin-right: 0;
   }
 
-  .image-name {
+  .image {
     display: flex;
-    flex-direction: column;
-    background-color: white;
-
-    .image {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .name {
-      margin-top: 0.25rem;
-      padding: 0.25rem;
-      letter-spacing: 1px;
-      font-size: 1.05rem;
-      font-size: 1.1rem;
-    }
+    justify-content: center;
+    align-items: center;
   }
 
   .description {
-    font-size: 0.9rem;
     letter-spacing: 0.5px;
-    margin-top: 0.1rem;
+    line-height: 1.2;
+    margin: 1rem 1rem 1.5rem 1rem;
   }
 
   @media only screen and (min-width: 900px) {
     & {
       flex-direction: column;
-
-      .image-name {
-        margin-bottom: 1rem;
-      }
-
-      .description {
-        width: 95%;
-      }
     }
   }
 

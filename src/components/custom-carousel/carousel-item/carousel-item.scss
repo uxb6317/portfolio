@@ -1,0 +1,15 @@
+@import '../../../styles/global-variables.scss';
+
+.carousel-item {
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border-radius: 5px;
+  cursor: pointer;
+  transform: scale(0.9);
+  border-bottom: 2px solid transparent;
+
+  &.highlight {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: scale(1);
+    // border-bottom-color: $red;
+  }
+}
