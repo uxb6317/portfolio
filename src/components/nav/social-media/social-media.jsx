@@ -1,12 +1,13 @@
 import React from 'react';
 
 import './social-media.scss';
+import LinkToOutside from '../../shared/link-to-outside/link-to-outside';
 
 const SocialMedia = ({ icon, link }) => {
   return (
-    <a href={link} className='media' target='_blank' rel='noopener noreferrer'>
-      <i className={icon} />
-    </a>
+    <LinkToOutside link={link}>
+      <i className={`media ${icon}`} />
+    </LinkToOutside>
   );
 };
 

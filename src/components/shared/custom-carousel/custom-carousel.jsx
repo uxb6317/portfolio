@@ -19,11 +19,12 @@ const CustomCarousel = ({ children }) => {
     <div className='custom-carousel'>
       <Carousel
         centerMode
-        centerSlidePercentage={50}
+        centerSlidePercentage={55}
         showIndicators={false}
         showThumbs={false}
         showStatus={false}
         showArrows={false}
+        transitionTime={400}
         selectedItem={currentSlideIndex}
         onClickItem={updateCurrentSlide}
         onChange={updateCurrentSlide}

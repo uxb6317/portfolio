@@ -16,8 +16,12 @@ const Hero = () => {
           specializing in React & Node.
         </span>
         <ButtonGroup>
-          <Button value='Projects' to='projects' offset={-100} />
-          <Button value='About' to='about' offset={-100} />
+          <Button to='projects' offset={-100}>
+            Projects
+          </Button>
+          <Button to='about' offset={-100}>
+            About
+          </Button>
         </ButtonGroup>
       </div>
       <div className='hero-img'>

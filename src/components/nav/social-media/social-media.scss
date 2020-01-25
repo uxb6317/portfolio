@@ -1,10 +1,9 @@
 @import '../../../styles/global-variables.scss';
 
 .media {
-  margin: 0 0.5rem;
-  font-size: 1.5rem;
+  margin: 0 0.5rem !important;
+  font-size: 2rem;
   cursor: pointer;
-  transition: color 0.15s ease-out;
 
   &:hover {
     color: darken($red, 10%);

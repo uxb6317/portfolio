@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 
 import './button.scss';
 
-const Button = ({ value, to, offset }) => {
+const Button = ({ children, to, offset }) => {
   return (
     <>
       {to ? (
@@ -15,10 +15,10 @@ const Button = ({ value, to, offset }) => {
           duration={500}
           className='button'
         >
-          {value}
+          {children}
         </Link>
       ) : (
-        <a className='button'>{value}</a>
+        <button className='button'>{children}</button>
       )}
     </>
   );

@@ -6,8 +6,8 @@ import './projects.scss';
 import PROJECTS_DATA from './PROJECTS_DATA';
 
 import Project from './project/project';
-import CarouselItem from '../custom-carousel/carousel-item';
-import CustomCarousel from '../custom-carousel';
+import CarouselItem from '../shared/custom-carousel/carousel-item';
+import CustomCarousel from '../shared/custom-carousel';
 
 const Projects = () => {
   return (

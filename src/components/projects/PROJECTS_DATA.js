@@ -1,6 +1,7 @@
 const PROJECTS_DATA = [
   {
     name: 'Crownazon',
+    tools: ['react', 'redux'],
     image: './images/ecommerce.png',
     url: 'https://crwnazon.herokuapp.com/',
     description:
@@ -8,6 +9,7 @@ const PROJECTS_DATA = [
   },
   {
     name: 'Crownazon1',
+    tools: ['express', 'typescript', 'mongodb'],
     image: './images/ecommerce.png',
     url: 'https://crwnazon.herokuapp.com/',
     description:
@@ -15,45 +17,11 @@ const PROJECTS_DATA = [
   },
   {
     name: 'Crownazon2',
+    tools: ['react', 'typescript', 'sass'],
     image: './images/ecommerce.png',
     url: 'https://crwnazon.herokuapp.com/',
     description:
       '3Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
-  },
-  {
-    name: 'Crownazon3',
-    image: './images/ecommerce.png',
-    url: 'https://crwnazon.herokuapp.com/',
-    description:
-      '4Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
-  },
-  {
-    name: 'Crownazon4',
-    image: './images/ecommerce.png',
-    url: 'https://crwnazon.herokuapp.com/',
-    description:
-      '5Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
-  },
-  {
-    name: 'Crownazon5',
-    image: './images/ecommerce.png',
-    url: 'https://crwnazon.herokuapp.com/',
-    description:
-      '6Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
-  },
-  {
-    name: 'Crownazon6',
-    image: './images/ecommerce.png',
-    url: 'https://crwnazon.herokuapp.com/',
-    description:
-      '7Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
-  },
-  {
-    name: 'Crownazon7',
-    image: './images/ecommerce.png',
-    url: 'https://crwnazon.herokuapp.com/',
-    description:
-      '8Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
   }
 ];
 

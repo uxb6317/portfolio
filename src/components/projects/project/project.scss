@@ -21,10 +21,51 @@
     align-items: center;
   }
 
-  .description {
-    letter-spacing: 0.5px;
-    line-height: 1.2;
-    margin: 1rem 1rem 1.5rem 1rem;
+  .content {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    .description {
+      letter-spacing: 0.5px;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+
+    .tools-links {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding-top: 1rem;
+      border-top: 1px solid grey;
+
+      .tools {
+        > * {
+          margin-right: 1rem;
+
+          &:last-of-type {
+            margin-right: 0;
+          }
+        }
+      }
+
+      .links {
+        display: flex;
+        align-items: flex-end;
+
+        > * {
+          margin-right: 1rem;
+        }
+
+        > *:last-of-type {
+          margin-right: 0;
+        }
+
+        img {
+          width: 2rem;
+        }
+      }
+    }
   }
 
   @media only screen and (min-width: 900px) {
