@@ -2,7 +2,7 @@ const PROJECTS_DATA = [
   {
     name: 'Crownazon',
     tools: ['react', 'redux'],
-    image: './images/ecommerce.png',
+    image: './images/ecommerce.PNG',
     url: 'https://crwnazon.herokuapp.com/',
     description:
       '1Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
@@ -10,7 +10,7 @@ const PROJECTS_DATA = [
   {
     name: 'Crownazon1',
     tools: ['express', 'typescript', 'mongodb'],
-    image: './images/ecommerce.png',
+    image: './images/ecommerce.PNG',
     url: 'https://crwnazon.herokuapp.com/',
     description:
       '2Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
@@ -18,7 +18,7 @@ const PROJECTS_DATA = [
   {
     name: 'Crownazon2',
     tools: ['react', 'typescript', 'sass'],
-    image: './images/ecommerce.png',
+    image: './images/ecommerce.PNG',
     url: 'https://crwnazon.herokuapp.com/',
     description:
       '3Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur ipsa, praesentium quo sapiente adipisci eaque dolorum corporis in vero!'
